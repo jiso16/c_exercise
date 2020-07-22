@@ -26,7 +26,7 @@ int main()
 
 			if (lastValue % 10 == 3 || lastValue % 10 == 6 || lastValue % 10 == 9)
 			{
-				printf("com: Â¦\n");
+				printf("com: clap\n");
 				isComputer = false;
 			}
 			else
@@ -43,17 +43,17 @@ int main()
 			printf("me:");
 			scanf("%s", &c1);
 
-			if (c1 == 'Â¦')
+			if (c1 == 'clap')
 			{
 				printf("\n");
 
 				lastValue += 1;
 			}
-			/*else if (c1 % 10 == 3 || c1 % 10 == 6 || c1 % 10 == 9)
+			else if (c1 % 10 == 3 || c1 % 10 == 6 || c1 % 10 == 9)
 			{
 				printf("°ÔÀÓ¿¡¼­ Á³½À´Ï´Ù");
 			}
-			*/
+			
 			else
 			{
 				lastValue += 1;
