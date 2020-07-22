@@ -1,0 +1,6 @@
+﻿  Game_project.c
+C:\dev\c_exercise\Game_project_solution\Game_project\Game_project.c(59,25): warning C4047: '==': 'char [10]' differs in levels of indirection from 'int'
+C:\dev\c_exercise\Game_project_solution\Game_project\Game_project.c(12,7): warning C4101: 'j': unreferenced local variable
+C:\dev\c_exercise\Game_project_solution\Game_project\Game_project.c(116,13): warning C4098: 'Game_project2': 'void' function returning a value
+C:\dev\c_exercise\Game_project_solution\Game_project\Game_project.c(140,13): warning C4098: 'Game_project2': 'void' function returning a value
+  Game_project.vcxproj -> C:\dev\c_exercise\Game_project_solution\Debug\Game_project.exe
