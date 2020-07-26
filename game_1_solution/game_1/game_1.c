@@ -3,7 +3,7 @@
 #include <stdlib.h> 
 #include <time.h>
 #include <string.h>
-
+#include <ctype.h>
 typedef enum { false, true } bool;
 
 
@@ -12,7 +12,7 @@ void Game_project1(void) //369 games with one computer
 {
 	int lastValue = 0;
 	int i = 0;
-	char input [20];
+	char input ;
 
 	bool isComputer = true;
 	
@@ -106,7 +106,7 @@ void Game_project2(void) //baskin31 games with one computer
 		printf("\nHow many numbers would you like to print out?");
 		scanf(" %d", &n2);
 
-		if ( n2 >= 4 || n2 < 1)
+		if ( n2 >= 4 || n2 < 1 )
 		{
 			printf("Only between 1 and 3!\n");
 			printf("The computer won!");
@@ -137,7 +137,7 @@ void Game_project3() // 369 games with multiple computers
 	int i = 0;
 	int j = 0;
 	int computer = 0;
-	char input[20];
+	char input ;
 
 	bool isComputer = true;
 
