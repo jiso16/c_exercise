@@ -4,15 +4,49 @@
 #include <time.h>
 #include <string.h>
 #include <ctype.h>
+
 typedef enum { false, true } bool;
 
+void Game_project1(void);
+void Game_project2(void);
+void Game_project3(void);
+void Game_project4(void);
 
+int main()
+{
+	int i = 0;
+
+	printf("Which game are you going to play?\n");
+	printf("1.Playing 369 games with one computer\n");
+	printf("2.Playing baskin_robins31 games with one computer\n");
+	printf("3.369 games with multiple computers\n");
+	printf("4.baskin_robins31 games with multiple computers\n");
+	printf("Enter the number:");
+	scanf("%d", &i);
+
+	if (i == 1)
+	{
+		Game_project1();
+	}
+	else if (i == 2)
+	{
+		Game_project2();
+	}
+	else if (i == 3)
+	{
+		Game_project3();
+	}
+	else if (i == 4)
+	{
+		Game_project4();
+	}
+}
 
 void Game_project1(void) //369 games with one computer
 {
 	int lastValue = 0;
 	int i = 0;
-	char input ;
+	char input [20] ;
 
 	bool isComputer = true;
 	
@@ -131,13 +165,13 @@ void Game_project2(void) //baskin31 games with one computer
 }
 
 
-void Game_project3() // 369 games with multiple computers
+void Game_project3(void) // 369 games with multiple computers
 {
 	int lastValue = 1;
 	int i = 0;
 	int j = 0;
 	int computer = 0;
-	char input ;
+	char input [20] ;
 
 	bool isComputer = true;
 
@@ -285,35 +319,5 @@ void Game_project4(void) //baskin31 games with mutiple computers
 		}
 		printf("\n");
 		com = me;
-	}
-}
-
-int main()
-{
-	int i = 0;
-
-	printf("Which game are you going to play?\n");
-	printf("1.Playing 369 games with one computer\n");
-	printf("2.Playing baskin_robins31 games with one computer\n");
-	printf("3.369 games with multiple computers\n");
-	printf("4.baskin_robins31 games with multiple computers\n");
-	printf("Enter the number:");
-	scanf("%d", &i);
-
-	if (i == 1)
-	{
-		Game_project1();
-	}
-	else if (i == 2)
-	{
-		Game_project2();
-	}
-	else if (i == 3)
-	{
-		Game_project3();
-	}
-	else if (i == 4)
-	{
-		Game_project4();
 	}
 }

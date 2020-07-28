@@ -1,14 +1,6 @@
 ﻿  game_1.c
-C:\dev\c_exercise\game_1_solution\game_1\game_1.c(44,20): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char'
-C:\dev\c_exercise\game_1_solution\game_1\game_1.c(44,20): warning C4024: 'strcmp': different types for formal and actual parameter 1
-C:\dev\c_exercise\game_1_solution\game_1\game_1.c(60,23): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char'
-C:\dev\c_exercise\game_1_solution\game_1\game_1.c(60,23): warning C4024: 'atoi': different types for formal and actual parameter 1
-C:\dev\c_exercise\game_1_solution\game_1\game_1.c(100,13): warning C4098: 'Game_project2': 'void' function returning a value
-C:\dev\c_exercise\game_1_solution\game_1\game_1.c(122,13): warning C4098: 'Game_project2': 'void' function returning a value
-C:\dev\c_exercise\game_1_solution\game_1\game_1.c(175,20): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char'
-C:\dev\c_exercise\game_1_solution\game_1\game_1.c(175,20): warning C4024: 'strcmp': different types for formal and actual parameter 1
-C:\dev\c_exercise\game_1_solution\game_1\game_1.c(191,23): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char'
-C:\dev\c_exercise\game_1_solution\game_1\game_1.c(191,23): warning C4024: 'atoi': different types for formal and actual parameter 1
-C:\dev\c_exercise\game_1_solution\game_1\game_1.c(238,14): warning C4098: 'Game_project4': 'void' function returning a value
-C:\dev\c_exercise\game_1_solution\game_1\game_1.c(280,13): warning C4098: 'Game_project4': 'void' function returning a value
+C:\dev\c_exercise\game_1_solution\game_1\game_1.c(134,13): warning C4098: 'Game_project2': 'void' function returning a value
+C:\dev\c_exercise\game_1_solution\game_1\game_1.c(156,13): warning C4098: 'Game_project2': 'void' function returning a value
+C:\dev\c_exercise\game_1_solution\game_1\game_1.c(272,14): warning C4098: 'Game_project4': 'void' function returning a value
+C:\dev\c_exercise\game_1_solution\game_1\game_1.c(314,13): warning C4098: 'Game_project4': 'void' function returning a value
   game_1.vcxproj -> C:\dev\c_exercise\game_1_solution\Debug\game_1.exe
