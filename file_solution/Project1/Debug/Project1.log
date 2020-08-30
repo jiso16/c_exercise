@@ -1,2 +1,0 @@
-﻿  Project1.cpp
-C:\dev\c_exercise\file_solution\Project1\Project1.cpp(36): error C4700: uninitialized local variable 'fw' used
