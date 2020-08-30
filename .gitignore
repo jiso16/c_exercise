@@ -57,3 +57,7 @@ game_1_solution/.vs
 file_solution/.vs
 .vs
 Debug
+*.vcxproj
+*.filters
+*.user
+*.sln
